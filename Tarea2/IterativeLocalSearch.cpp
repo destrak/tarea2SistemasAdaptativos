@@ -56,7 +56,7 @@ struct Graph {
         auto is_comment_or_empty = [](const string& s){
             for (char c: s) {
                 if (!isspace((unsigned char)c)) {
-                    return (c=='c' || c=='%' || c=='#'); // comentarios comunes
+                    return (c=='c' || c=='%' || c=='#'); 
                 }
             }
             return true;
@@ -186,7 +186,7 @@ Options parse_args(int argc, char** argv) {
         else if (a == "--ls" && need(i))     o.ls_iters = stoi(argv[++i]);
         else if (a == "--verbose" && need(i))o.verbose = stoi(argv[++i]);
         else {
-            // ignorar desconocidos (permite agregar params propios)
+            
         }
     }
 
