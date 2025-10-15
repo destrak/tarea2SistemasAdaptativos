@@ -1,7 +1,7 @@
 # Iterative Local Search (ILS) — Maximum Independent Set Problem (MISP)
 
-> **Autor:** Nicolàs Jarpa- Nicolàs Pina 
-> **Institución:** Universidad del Bío-Bío — Ingeniería Civil Informatica 
+> **Autor:** Nicolàs Jarpa- Nicolàs Pino 
+> **Institución:** Universidad de Concepciòn — Ingeniería Civil Informatica 
 > **Proyecto:** Metaheurísticas aplicadas al problema del Conjunto Independiente Máximo  
 > **Año:** 2025  
 
