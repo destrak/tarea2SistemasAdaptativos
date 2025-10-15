@@ -31,7 +31,7 @@ for dens in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9; do
     done
 
     if [ -z "$candidate" ] || [ ! -f "$candidate" ]; then
-      echo "⚠️  No se encontró archivo para densidad=$dens idx=$idx (saltando)"
+      echo "No se encontró archivo para densidad=$dens idx=$idx (saltando)"
       continue
     fi
 
