@@ -34,7 +34,7 @@ for dens in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9; do
     done
 
     if [ -z "$candidate" ] || [ ! -f "$candidate" ]; then
-      echo "⚠️  No se encontró archivo para densidad=$dens idx=$idx"
+      echo "No se encontró archivo para densidad=$dens idx=$idx"
       echo "$dens,$idx,NA,NA,$DIR/erdos_n3000_p0c${dens}_${idx}.graph" >> "$OUT_CSV"
       continue
     fi
@@ -56,12 +56,12 @@ for dens in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9; do
     tiempo=$(sed -n 's/.*Tiempo[^0-9]*\([0-9]\+\(\.[0-9]\+\)\?\).*/\1/p' "$logfile" | head -n1)
 
     if [ $rc -ne 0 ]; then
-      echo "❌ Error al ejecutar ($rc) -> $candidate"
+      echo "Error al ejecutar ($rc) -> $candidate"
       sol=""; tiempo=""
     fi
 
     if [ -z "${sol:-}" ] || [ -z "${tiempo:-}" ]; then
-      echo "❗ No pude parsear Solucion/Tiempo (ver $logfile)"
+      echo "No pude parsear Solucion/Tiempo (ver $logfile)"
       sol="NA"; tiempo="NA"
     fi
 
