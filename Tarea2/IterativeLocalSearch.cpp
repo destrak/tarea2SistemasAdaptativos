@@ -411,7 +411,7 @@ int main(int argc, char** argv) {
     ILS_MIS solver(G, rng, opt.alpha, opt.perturb_k, opt.ls_iters, opt.verbose);
     auto [best_set, best_val, best_t] = solver.run(timer, opt.time_limit);
 
-    // Línea final obligatoria
+    
     cout << "FINAL_BEST " << best_val << " FOUND_AT " << fixed << setprecision(6) << best_t << "\n";
     return 0;
 }
