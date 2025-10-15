@@ -104,12 +104,12 @@ IterativeLocalSearch-MISP/
 │   ├── erdos_n3000_p0c0.2_1.graph
 │   └── ...
 └── scripts/
-    └── run_experiments.sh
+    └── run_calibracion_uno.sh
 
-Autor
+Autores
 
-Nicolàs Jarpa-Nicolàs Pino
-Estudiantes de Ingeniería Civil Informatica– Universidad de Concepciòn
+Nicolas Jarpa-Nicolas Pino
+Estudiantes de Ingeniería Civil Informatica– Universidad de Concepcion
 
 
 
