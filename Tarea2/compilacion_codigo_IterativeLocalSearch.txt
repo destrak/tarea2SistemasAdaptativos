@@ -1,0 +1,17 @@
+Para ejecutar IterativeLocalSearch.cpp
+Compilar (Linux):
+   g++ -O3 -std=c++20 -Wall -Wextra -o IterativeLocalSearch IterativeLocalSearch.cpp
+
+Ejecutar:
+  ./IterativeLocalSearch ILS -i instancia.graph -t 10 --seed 1 --alpha 0.50 --perturb 3 --ls 4000 --verbose 1
+
+ejemplo de ejecucion:
+./IterativeLocalSearch ILS -i new_3000_dataset/erdos_n3000_p0c0.1_1.graph -t 10 --seed 1 --alpha 0.50 --perturb 3 --ls 4000 --verbose 1
+
+entrega la best solucion encontrada y en que tiempo ocurre para al final entregar la mejor obtenida durante el tiempo señalado
+
+para ejecutar run_calibracion_uno.sh:
+ chmod +x IterativeLocalSearch
+ ./run_calibracion_uno.sh
+
+ entrega los resultados de los 30 graficos de 0.1 a 0.9 de un dataset en especifico
