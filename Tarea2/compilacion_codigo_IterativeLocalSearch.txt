@@ -11,7 +11,8 @@ ejemplo de ejecucion:
 entrega la best solucion encontrada y en que tiempo ocurre para al final entregar la mejor obtenida durante el tiempo señalado
 
 para ejecutar run_calibracion_uno.sh:
- chmod +x IterativeLocalSearch
+ chmod +x run_calibracion_uno.sh
  ./run_calibracion_uno.sh
 
  entrega los resultados de los 30 graficos de 0.1 a 0.9 de un dataset en especifico
+
